@@ -1,0 +1,8 @@
+ class helloworld
+ {
+ stringarg()
+ 
+ {
+ System println("hello world");
+ }
+ }
