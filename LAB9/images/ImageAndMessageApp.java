@@ -52,7 +52,7 @@ public class ImageAndMessageApp extends JFrame {
             for (String message : messages) {
                 SwingUtilities.invokeLater(() -> messageLabel.setText(message));
                 try {
-                    Thread.sleep(1000); // 1 second delay between messages
+                    Thread.sleep(1000); 
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
